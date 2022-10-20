@@ -30,6 +30,20 @@ nav>ul>li>a {
     color: black;
 }
 
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 45px;
+    width: 141px;
+    padding: 0px;
+    height: 50px;
+}
+
+ul {
+    margin: 0px;
+    padding-inline-start: 0px;
+}
+
 .active {
     color: #34547A;
 }
@@ -119,28 +133,46 @@ h2 {
     padding-top: 100px;
     padding-bottom: 100px;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #FFFFFF;
-}
-
-.container3 {
-    width: 141px;
-    display: inline-block;
-    margin-right: 40px;
 }
 
 .img {
     width: 50px;
-    float: left;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
 }
 
-.text3 {
-    display: inline-block;
-    margin-left: 20px;
+.cont {
     width: 71px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.top {
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 36px;
+    height: 19px;
+    display: block;
+    margin: 3px 35px 7px 20px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.bot {
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 71px;
+    height: 15px;
+    display: block;
+    margin: 0 0 3px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
 }
 
 .sekt3 {
